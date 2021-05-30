@@ -1,0 +1,173 @@
+
+/* Referencie */
+
+.references__carousel .eael-post-grid-container .eael-post-grid {
+	margin: 0 -12px;
+}
+.references__carousel .eael-post-grid-container .eael-post-grid .eael-grid-post {
+	padding: 24px 12px;
+}
+
+.references__carousel .eael-grid-post-holder {
+	border: 0;
+}
+
+.references__carousel .eael-grid-post .eael-entry-wrapper, 
+.references__carousel .eael-grid-post .eael-entry-footer {
+	padding: 0;
+	padding-top: 24px;
+}
+
+.references__carousel .eael-entry-thumbnail img {
+	-webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+.references__carousel .eael-entry-media:hover .eael-entry-thumbnail img {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.references__carousel .eael-entry-title {
+	margin: 0;
+	margin-bottom: 24px;
+}
+
+.references__carousel .eael-grid-post-link {
+	-webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+
+.references__carousel .eael-grid-post-excerpt table {
+	margin-bottom: 24px;
+	table-layout: fixed;
+	
+	font-size: 1em;
+}
+.references__carousel .eael-grid-post-excerpt table td, 
+.references__carousel .eael-grid-post-excerpt table th {
+	padding: 0;
+	
+	line-height: inherit;
+	
+	border: 0;
+}
+.references__carousel .eael-grid-post-excerpt table tbody>tr:nth-child(odd)>td, 
+.references__carousel .eael-grid-post-excerpt table tbody>tr:nth-child(odd)>th {
+	background-color: transparent;
+}
+.references__carousel .eael-grid-post-excerpt table tbody>tr+tr>td, 
+.references__carousel .eael-grid-post-excerpt table tbody>tr+tr>th {
+	padding-top: 12px;
+}
+
+.references__carousel .eael-grid-post-excerpt ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.references__carousel .eael-grid-post-excerpt ul li {
+	padding-left: 32px;
+	
+	background: url(/wp-content/themes/hello-elementor-child/custom-styles/images/bullet.svg) no-repeat left 14px top 11px;
+	-webkit-background-size: 4px 4px;
+	-moz-background-size: 4px 4px;
+	background-size: 4px 4px;
+}
+.references__carousel .eael-grid-post-excerpt ul li + li {
+	margin-top: 12px;
+}
+
+@media (max-width: 767px) {
+	.references__carousel .eael-post-grid-container .eael-post-grid {
+		margin: 0 -16px;
+	}
+	.references__carousel .eael-post-grid-container .eael-post-grid .eael-grid-post {
+		padding: 16px;
+	}
+	.references__carousel .eael-entry-title, 
+	.references__carousel .eael-grid-post-excerpt table {
+		margin-bottom: 16px;
+	}
+	.references__carousel .eael-grid-post-excerpt table tbody>tr+tr>td, 
+	.references__carousel .eael-grid-post-excerpt table tbody>tr+tr>th {
+		padding-top: 8px;
+	}
+	.references__carousel .eael-grid-post-excerpt ul li + li {
+		margin-top: 8px;
+	}
+}
+
+/* Slider */
+
+.references__carousel .slick-arrow {
+	width: 24px;
+	height: 24px;
+	margin-top: -12px;
+	padding: 0;
+	position: absolute;
+	top: 50%;
+	z-index: 1;
+	
+	font-size: 0;
+	line-height: 24px;
+	
+	background-color: transparent;
+	border-radius: 0;
+	box-shadow: none;
+	opacity: .33;
+}
+.references__carousel .slick-arrow:focus, 
+.references__carousel .slick-arrow:hover {
+	background-color: transparent;
+	outline: 0;
+}
+.references__carousel .slick-arrow:after {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	vertical-align: middle;
+	font-family: 'Font Awesome 5 Free';
+	font-size: 16px;
+	font-weight: 900;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 1;
+	text-rendering: auto;
+}
+.references__carousel .slick-prev {
+	left: -24px;
+}
+.references__carousel .slick-prev:after {
+	content: "\f053";
+}
+.references__carousel .slick-next {
+	right: -24px;
+}
+.references__carousel .slick-next:after {
+	content: "\f054";
+}
+
+@media (max-width: 767px) {
+	.references__carousel .slick-arrow {
+		width: 16px;
+		height: 16px;
+		margin-top: -8px;
+		
+		line-height: 16px;
+	}
+	.references__carousel .slick-arrow:after {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 1295px) {
+	.references__carousel .slick-prev {
+		left: 0;
+	}
+	.references__carousel .slick-next {
+		right: 0;
+	}
+}

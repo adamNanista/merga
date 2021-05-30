@@ -1,0 +1,47 @@
+
+.block {
+	padding: 40px 8px;
+}
+.hero {
+	color: var( --e-global-color-ceb12d4 );
+	
+	background-color: var( --e-global-color-primary );
+	background-image: url( '/wp-content/uploads/2021/05/hero-background.jpg' );
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hero h1, 
+.hero p {
+	margin: 0;
+	padding: 0;
+	max-width: 552px;
+}
+.hero p {
+	position: relative;
+	margin-top: 16px;
+	padding-top: 18px;
+}
+.hero p:before {
+	content: " ";
+	display: block;
+	height: 2px;
+	width: 94px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	background-color: var( --e-global-color-accent );
+}
+
+@media (min-width: 768px) {
+	.block {
+		padding: 84px 12px;
+	}
+	
+	.hero p {
+		margin-top: 24px;
+		padding-top: 26px;
+	}
+}

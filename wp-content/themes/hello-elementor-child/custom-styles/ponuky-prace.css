@@ -1,0 +1,141 @@
+
+.jobs [class^="col"] {
+	margin-bottom: 32px;
+}
+
+.job a, 
+.job a:active, 
+.job a:hover {
+	color: inherit;
+}
+.job-title {
+	margin-bottom: 16px;
+}
+.job-title h3, 
+.job-content p {
+	margin: 0;
+	padding: 0;
+}
+.job-content table {
+	table-layout: fixed;
+	margin-bottom: 24px;
+	
+	font-size: 1em;
+}
+.job-content table td, 
+.job-content table th {
+	padding: 0;
+	
+	line-height: inherit;
+	
+	border: 0;
+}
+.job-content table tbody>tr:nth-child(odd)>td, 
+.job-content table tbody>tr:nth-child(odd)>th {
+	background-color: transparent;
+}
+.job-content table tbody>tr+tr>td, 
+.job-content table tbody>tr+tr>th {
+	padding-top: 8px;
+}
+
+.job-content p {
+	margin-bottom: 16px;
+}
+
+.job-content ul {
+	list-style: none;
+	margin: 0;
+	margin-bottom: 16px;
+	padding: 0;
+}
+.job-content ul li {
+	padding-left: 32px;
+	
+	background: url(/wp-content/themes/hello-elementor-child/custom-styles/images/bullet.svg) no-repeat left 14px top 11px;
+	-webkit-background-size: 4px 4px;
+	-moz-background-size: 4px 4px;
+	background-size: 4px 4px;
+}
+.job-content ul li + li {
+	margin-top: 8px;
+}
+
+@media (max-width: 767px) {
+	.jobs [class^="col"]:last-child {
+		margin-bottom: 0;
+	}
+}
+
+@media (min-width: 768px) { 
+	.jobs {
+		padding-bottom: 12px;
+	}
+	.jobs [class^="col"] {
+		margin-bottom: 72px;
+	}
+	.job-title, 
+	.job-content table, 
+	.job-content p, 
+	.job-content ul {
+		margin-bottom: 24px;
+	}
+	.job-content table tbody>tr+tr>td, 
+	.job-content table tbody>tr+tr>th {
+		padding-top: 12px;
+	}
+	.job-content ul li + li {
+		margin-top: 12px;
+	}
+}
+
+.call-center {
+	background-color: var( --e-global-color-secondary );
+}
+.call-center h2 {
+	margin: 0;
+	margin-bottom: 32px;
+	padding: 0;
+}
+.call-center ul.an-icon-list {
+	margin-bottom: 16px;
+	
+	font-size: 20px;
+	line-height: 32px;
+}
+.call-center img {
+	display: block;
+	height: auto;
+	width: 100%;
+}
+@media (max-width: 767px) {
+	.call-center [class^="col"]:first-child {
+		margin-bottom: 48px;
+	}
+}
+
+@media (min-width: 768px) {
+	.call-center .row {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: reverse;
+		-ms-flex-direction: row-reverse;
+		flex-direction: row-reverse;
+	}
+	.call-center h2 {
+		margin-bottom: 48px;
+	} 
+	.call-center ul.an-icon-list {
+		margin-bottom: 24px;
+	}
+}
+
+@media (min-width: 1025px) {
+	.call-center .row {
+		margin-right: -24px;
+		margin-left: -24px;
+	}
+	.call-center [class^="col"] {
+		padding-right: 24px;
+		padding-left: 24px;
+	}
+}

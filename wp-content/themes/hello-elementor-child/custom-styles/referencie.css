@@ -1,0 +1,110 @@
+
+.references [class^="col"] {
+	margin-bottom: 32px;
+}
+
+.reference a, 
+.reference a:active, 
+.reference a:hover {
+	color: inherit;
+}
+.reference-attachment {
+	margin-bottom: 24px;
+	overflow: hidden;
+}
+.reference-attachment img {
+	display: block;
+	height: auto;
+	width: 100%;
+	
+	-webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+.reference-attachment a:hover img {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.reference-title {
+	margin-bottom: 16px;
+}
+.reference-title h3 {
+	margin: 0;
+	padding: 0;
+}
+.reference-title h3 a {
+	-webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+.reference-title h3 a:hover {
+	color: var( --e-global-color-primary );
+}
+.reference-content table {
+	table-layout: fixed;
+	margin-bottom: 16px;
+	
+	font-size: 1em;
+}
+.reference-content table td, 
+.reference-content table th {
+	padding: 0;
+	
+	line-height: inherit;
+	
+	border: 0;
+}
+.reference-content table tbody>tr:nth-child(odd)>td, 
+.reference-content table tbody>tr:nth-child(odd)>th {
+	background-color: transparent;
+}
+.reference-content table tbody>tr+tr>td, 
+.reference-content table tbody>tr+tr>th {
+	padding-top: 8px;
+}
+
+.reference-content ul {
+	list-style: none;
+	margin: 0;
+	margin-bottom: 16px;
+	padding: 0;
+}
+.reference-content ul li {
+	padding-left: 32px;
+	
+	background: url(/wp-content/themes/hello-elementor-child/custom-styles/images/bullet.svg) no-repeat left 14px top 11px;
+	-webkit-background-size: 4px 4px;
+	-moz-background-size: 4px 4px;
+	background-size: 4px 4px;
+}
+.reference-content ul li + li {
+	margin-top: 8px;
+}
+
+@media (max-width: 767px) {
+	.references [class^="col"]:last-child {
+		margin-bottom: 0;
+	}
+}
+
+@media (min-width: 768px) { 
+	.references {
+		padding-bottom: 12px;
+	}
+	.references [class^="col"] {
+		margin-bottom: 72px;
+	}
+	.reference-title, 
+	.reference-content table, 
+	.reference-content ul {
+		margin-bottom: 24px;
+	}
+	.reference-content table tbody>tr+tr>td, 
+	.reference-content table tbody>tr+tr>th {
+		padding-top: 12px;
+	}
+	.reference-content ul li + li {
+		margin-top: 12px;
+	}
+}

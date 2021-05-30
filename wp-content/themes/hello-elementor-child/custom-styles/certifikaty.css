@@ -1,0 +1,55 @@
+
+.certificates [class^="col"] {
+	margin-bottom: 32px;
+}
+
+.certificate {
+	padding-left: 44px;
+	position: relative;
+}
+.certificate a, 
+.certificate a:active, 
+.certificate a:hover {
+	color: inherit;
+}
+.certificate-title, 
+.certificate-content {
+	margin-bottom: 16px;
+}
+.certificate-title h3, 
+.certificate-content p {
+	margin: 0;
+	padding: 0;
+}
+.certificate-attachment {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.certificate-icon {
+	width: 32px;
+	height: 32px;
+	
+	color: var( --e-global-color-ceb12d4 );
+	font-size: 16px;
+	line-height: 32px;
+	text-align: center;
+	
+	background-color: var( --e-global-color-primary );
+	border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+	.certificates [class^="col"]:last-child {
+		margin-bottom: 0;
+	}
+}
+
+@media (min-width: 768px) {
+	.certificates {
+		padding-bottom: 12px;
+	}
+	.certificates [class^="col"] {
+		margin-bottom: 72px;
+	}
+}

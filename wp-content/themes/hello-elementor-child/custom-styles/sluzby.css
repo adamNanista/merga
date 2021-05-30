@@ -1,0 +1,77 @@
+
+.services .row {
+	margin-bottom: 32px;
+}
+.services .row:last-child {
+	margin-bottom: 0;
+}
+.service:nth-of-type(odd) {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+}
+.service a, 
+.service a:active, 
+.service a:hover {
+	color: inherit;
+}
+.service-attachment {
+	margin-bottom: 24px;
+}
+.service-attachment img {
+	display: block;
+	height: auto;
+	width: 100%;
+}
+.service-content h2 {
+	margin: 0;
+	margin-bottom: 16px;
+	padding: 0;
+}
+
+.service-content ul {
+	list-style: none;
+	margin: 0;
+	margin-bottom: 16px;
+	padding: 0;
+}
+.service-content ul li {
+	padding-left: 32px;
+	
+	background: url(/wp-content/themes/hello-elementor-child/custom-styles/images/bullet.svg) no-repeat left 14px top 11px;
+	-webkit-background-size: 4px 4px;
+	-moz-background-size: 4px 4px;
+	background-size: 4px 4px;
+}
+.service-content ul li + li {
+	margin-top: 8px;
+}
+
+@media (min-width: 768px) {
+	.services .row {
+		margin-bottom: 96px;
+	}
+	.service-attachment, 
+	.service-content ul {
+		margin-bottom: 0;
+	}
+	.service-content h2 {
+		margin-bottom: 24px;
+	}
+	.service-content ul li + li {
+		margin-top: 12px;
+	}
+}
+
+@media (min-width: 1025px) {
+	.services .row {
+		margin-right: -24px;
+		margin-left: -24px;
+	}
+	.services .service-attachment, 
+	.services .service-content {
+		padding-right: 24px;
+		padding-left: 24px;
+	}
+}

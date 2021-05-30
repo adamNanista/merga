@@ -1,0 +1,83 @@
+
+/* Služby */
+
+.services .eael-post-grid-container .eael-post-grid {
+	margin: 0 -12px;
+}
+.services .eael-post-grid-container .eael-post-grid .eael-grid-post {
+	padding: 24px 12px;
+}
+
+.services .eael-grid-post-holder {
+	border: 0;
+}
+
+.services .eael-grid-post .eael-entry-header {
+	padding-left: 44px;
+	position: relative;
+}
+.services .eael-grid-post .eael-entry-header:before {
+	content: "\f00c";
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	color: var( --e-global-color-ceb12d4 );
+	font-family: 'Font Awesome 5 Free';
+	font-size: 16px;
+	font-weight: 900;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 32px;
+	text-align: center;
+	text-rendering: auto;
+	
+	background-color: var( --e-global-color-primary );
+	border-radius: 50%;
+}
+.services .eael-grid-post:nth-of-type(1) .eael-entry-header:before {
+	content: "\f085";
+}
+.services .eael-grid-post:nth-of-type(2) .eael-entry-header:before {
+	content: "\f7d9";
+}
+.services .eael-grid-post:nth-of-type(3) .eael-entry-header:before {
+	content: "\f084";
+}
+.services .eael-grid-post:nth-of-type(4) .eael-entry-header:before {
+	content: "\f2c9";
+}
+.services .eael-grid-post:nth-of-type(5) .eael-entry-header:before {
+	content: "\f568";
+}
+.services .eael-grid-post:nth-of-type(6) .eael-entry-header:before {
+	content: "\f2b5";
+}
+
+.services .eael-grid-post .eael-entry-wrapper, 
+.services .eael-grid-post .eael-entry-footer {
+	padding: 0;
+}
+
+.services .eael-entry-title {
+	margin: 0;
+}
+
+.services .eael-grid-post-link {
+	cursor: default;
+	pointer-events: none;
+}
+
+@media (max-width: 767px) {
+	.services .eael-post-grid-container .eael-post-grid {
+		margin: 0 -16px;
+	}
+	.services .eael-post-grid-container .eael-post-grid .eael-grid-post {
+		padding: 16px;
+	}
+}
