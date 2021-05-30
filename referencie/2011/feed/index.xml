@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>2011 &#8211; merga</title>
+	<atom:link href="/referencie/2011/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Len ďalšia WordPress stránka</description>
+	<lastBuildDate>Sun, 30 May 2021 08:35:52 +0000</lastBuildDate>
+	<language>sk-SK</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Prešov &#8211; Lanové Centrum</title>
+		<link>/referencie/2011/presov-lanove-centrum/</link>
+		
+		<dc:creator><![CDATA[Nanista]]></dc:creator>
+		<pubDate>Thu, 27 May 2021 12:03:44 +0000</pubDate>
+				<guid isPermaLink="false">/referencie/2011/presov-lanove-centrum/</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<table>
+<tr>
+<td>
+			Dátum začatia
+		</td>
+<td>
+			<strong>06/2011</strong>
+		</td>
+</tr>
+<tr>
+<td>
+			Dátum ukončenia
+		</td>
+<td>
+			<strong>07/2011</strong>
+		</td>
+</tr>
+<tr>
+<td>
+			Objednávateľ
+		</td>
+<td>
+			<strong>Dúha, a.s.</strong>
+		</td>
+</tr>
+</table>
+<ul>
+<li>Zdravotechnika</li>
+</ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Kráľovský Chlmec &#8211; HS</title>
+		<link>/referencie/2011/kralovsky-chlmec-hs/</link>
+		
+		<dc:creator><![CDATA[Nanista]]></dc:creator>
+		<pubDate>Thu, 27 May 2021 12:02:16 +0000</pubDate>
+				<guid isPermaLink="false">/referencie/2011/kralovsky-chlmec-hs/</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<table>
+<tr>
+<td>
+			Dátum začatia
+		</td>
+<td>
+			<strong>04/2011</strong>
+		</td>
+</tr>
+<tr>
+<td>
+			Dátum ukončenia
+		</td>
+<td>
+			<strong>05/2011</strong>
+		</td>
+</tr>
+<tr>
+<td>
+			Objednávateľ
+		</td>
+<td>
+			<strong>Dúha, a.s.</strong>
+		</td>
+</tr>
+</table>
+<ul>
+<li>Zdravotechnika</li>
+<li>Dodávka a montáž vsakovacích košov</li>
+</ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Stará Turá &#8211; ZUŠ</title>
+		<link>/referencie/2011/stara-tura-zus/</link>
+		
+		<dc:creator><![CDATA[Nanista]]></dc:creator>
+		<pubDate>Thu, 27 May 2021 12:01:28 +0000</pubDate>
+				<guid isPermaLink="false">/referencie/2011/stara-tura-zus/</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<table>
+<tr>
+<td>
+			Dátum začatia
+		</td>
+<td>
+			<strong>03/2011</strong>
+		</td>
+</tr>
+<tr>
+<td>
+			Dátum ukončenia
+		</td>
+<td>
+			<strong>08/2011</strong>
+		</td>
+</tr>
+<tr>
+<td>
+			Objednávateľ
+		</td>
+<td>
+			<strong>Eiffage construction s.r.o.</strong>
+		</td>
+</tr>
+</table>
+<ul>
+<li>Rekonštrukcia kotolne</li>
+<li>Zdravotechnika</li>
+<li>Ústredné kúrenie</li>
+</ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
