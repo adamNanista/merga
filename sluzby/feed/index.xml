@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Služby &#8211; merga</title>
+	<atom:link href="/sluzby/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Len ďalšia WordPress stránka</description>
+	<lastBuildDate>Fri, 28 May 2021 12:32:57 +0000</lastBuildDate>
+	<language>sk-SK</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>Komplexná dodávka TZB</title>
+		<link>/sluzby/komplexna-dodavka-tzb/</link>
+		
+		<dc:creator><![CDATA[Nanista]]></dc:creator>
+		<pubDate>Mon, 03 May 2021 10:06:28 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=sluzby&#038;p=166</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<ul>
+<li>vykurovanie</li>
+<li>voda</li>
+<li>kanalizácia</li>
+<li>plyn</li>
+<li>elektrina</li>
+</ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Realizácia inžinierskych stavieb</title>
+		<link>/sluzby/realizacia-inzinierskych-stavieb/</link>
+		
+		<dc:creator><![CDATA[Nanista]]></dc:creator>
+		<pubDate>Mon, 03 May 2021 10:04:13 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=sluzby&#038;p=194</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<ul>
+<li>kanalizácie</li>
+<li>teplovody</li>
+<li>vodovody</li>
+<li>plynovody</li>
+<li>elektroinštalácie</li>
+</ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Výstavba stavieb na kľúč</title>
+		<link>/sluzby/vystavba-stavieb-na-kluc/</link>
+		
+		<dc:creator><![CDATA[Nanista]]></dc:creator>
+		<pubDate>Mon, 03 May 2021 10:03:24 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=sluzby&#038;p=199</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<ul>
+<li>bytových</li>
+<li>občianskych</li>
+<li>obchodných</li>
+<li>administratívnych</li>
+</ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Výstavba a rekonštrukcia kotolní</title>
+		<link>/sluzby/vystavba-a-rekonstrukcia-kotolni/</link>
+		
+		<dc:creator><![CDATA[Nanista]]></dc:creator>
+		<pubDate>Mon, 03 May 2021 10:02:43 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=sluzby&#038;p=201</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<ul>
+<li>výmenníkové stanice</li>
+<li>solárne systémy</li>
+<li>kotle na zemný plyn</li>
+<li>elektrické kotle</li>
+<li>kotle na tuhé palivo</li>
+</ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Projektová a arch. činnosť</title>
+		<link>/sluzby/projektova-a-arch-cinnost/</link>
+		
+		<dc:creator><![CDATA[Nanista]]></dc:creator>
+		<pubDate>Mon, 03 May 2021 10:01:05 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=sluzby&#038;p=203</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<ul>
+<li>projekčná činnosť ÚK</li>
+<li>projekčná činnosť ZTI</li>
+<li>architektonická činnosť</li>
+<li>návrhy a vizualizácie</li>
+</ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Prenájom stav. mechanizácie</title>
+		<link>/sluzby/prenajom-stav-mechanizacie/</link>
+		
+		<dc:creator><![CDATA[Nanista]]></dc:creator>
+		<pubDate>Mon, 03 May 2021 10:00:48 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=sluzby&#038;p=205</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<ul>
+<li>Caterpillar CAT 428e</li>
+<li>Caterpillar CAT M318</li>
+<li>Hodinová sadzba dohodou</li>
+<li>Info: +421 907 931 300</li>
+</ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
