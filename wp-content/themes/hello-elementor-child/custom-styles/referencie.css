@@ -73,7 +73,7 @@
 .reference-content ul li {
 	padding-left: 32px;
 	
-	background: url(/wp-content/themes/hello-elementor-child/custom-styles/images/bullet.svg) no-repeat left 14px top 11px;
+	background: url(./images/bullet.svg) no-repeat left 14px top 11px;
 	-webkit-background-size: 4px 4px;
 	-moz-background-size: 4px 4px;
 	background-size: 4px 4px;
